@@ -1,3 +1,4 @@
+/*GLOBAL COMMANDS*/
 *{
   margin: 0; /*margin = ESPAÇO */
   padding: 0; /*padding = PREENCHIMENTOS */
@@ -10,7 +11,7 @@ body  {
 ul  {
   list-style: none;
 }
-
+/*HEADER COMMANDS*/
 header  { 
   padding: 32px 0;
   text-align: center;
@@ -20,5 +21,30 @@ section {
   max-width: 300px;
   border: 1px solid red;
   margin: 0 auto;
+}
 
+header h1 span {
+color: #995000;
+
+}
+/* sectio*/
+
+section {
+  margin-bottom: 24px;
+}
+section h2{
+  background-color: #FED7AA;
+  padding: 8px 16px;
+  text-align: center;
+
+  margin-bottom: 24px;
+}
+/* LISTA */
+ul li{
+  margin-bottom: 16px;
+  display: flex;
+}
+
+li .details {
+  max-width: 240px;
 }
