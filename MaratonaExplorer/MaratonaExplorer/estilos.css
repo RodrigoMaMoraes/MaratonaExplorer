@@ -1,0 +1,11 @@
+*{
+    margin: 0; /*margin = ESPAÇO */
+    padding: 0; /*padding = PREENCHIMENTOS */
+  }
+  body  {
+    background-color: red; /*Todo HEXADECIMAL:0 até F*/
+  }
+  
+  ul  {
+    list-style: none;
+  }
