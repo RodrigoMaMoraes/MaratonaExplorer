@@ -1,11 +1,24 @@
 *{
-    margin: 0; /*margin = ESPAÇO */
-    padding: 0; /*padding = PREENCHIMENTOS */
-  }
-  body  {
-    background-color: red; /*Todo HEXADECIMAL:0 até F*/
-  }
-  
-  ul  {
-    list-style: none;
-  }
+  margin: 0; /*margin = ESPAÇO */
+  padding: 0; /*padding = PREENCHIMENTOS */
+}
+
+body  {
+  background-color: #FFEDD5; /*Todo HEXADECIMAL:0 até F*/
+}
+
+ul  {
+  list-style: none;
+}
+
+header  { 
+  padding: 32px 0;
+  text-align: center;
+}
+header,
+section {
+  max-width: 300px;
+  border: 1px solid red;
+  margin: 0 auto;
+
+}
